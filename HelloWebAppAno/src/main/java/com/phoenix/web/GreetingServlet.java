@@ -41,7 +41,7 @@ public class GreetingServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		System.out.println("service of GreetingServlet");
 	   PrintWriter out=response.getWriter();
-	   out.println("<h1>welcome to STL</h1>");
+	   out.println("<h1>Servlet HelloWebAppAnnotation Project</h1>");
 	}
 
 }

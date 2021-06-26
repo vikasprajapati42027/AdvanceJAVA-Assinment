@@ -10,13 +10,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-  
-    
-    <servlet-name>GreetingServlet</servlet-name>
+    <servlet-name>greet</servlet-name>
     <servlet-class>com.phoenix.web.GreetingServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>GreetingServlet</servlet-name>
+    <servlet-name>greet</servlet-name>
     <url-pattern>/greet</url-pattern>
   </servlet-mapping>
 </web-app>

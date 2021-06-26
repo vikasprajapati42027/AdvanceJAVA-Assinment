@@ -12,8 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet implementation class GreetingServlet
+ *  @author vikas.prajapati
  */
-@WebServlet("/greet")
+//@WebServlet("/greet")
 public class GreetingServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -41,7 +42,7 @@ public class GreetingServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		System.out.println("service of GreetingServlet");
 	   PrintWriter out=response.getWriter();
-	   out.println("<h1>welcome to STL</h1>");
+	   out.println("<h1>First Servlet Project </h1>");
 	}
 
 }

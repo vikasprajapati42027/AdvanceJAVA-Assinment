@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet implementation class LoginServlet
+ *  @author vikas.prajapati
  */
 @WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
@@ -30,8 +31,8 @@ public class LoginServlet extends HttpServlet {
 	   if(uname!=null && password !=null && uname.equals("vikas") && password.equals("1234"))
 		   {
 		   out.println("<h2>Validation is Succesfull </h2>");
-		   }else {
-			   out.print("<h2 style='color:red;'>Invalid Login</h2>");
+		   }else{
+			   out.println("<h1>style='color:red;'>Invalid Login</h1>");
 		   }
 	}
 
